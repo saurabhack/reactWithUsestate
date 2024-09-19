@@ -6,7 +6,8 @@ function Navbar(){
             <div className="w-[10%] h-[100%] flex items-center"><p><NavLink to="/">Counter App</NavLink></p></div>
             <div className="w-[20%] h-[100%] flex items-center"><p><NavLink to="/BackGroundChanger">Background Color changingApp</NavLink></p>
             </div>
-            <div className="w-[20%] h-[100%] flex items-center"><p><NavLink to="/useStateWithArray">useState with Array</NavLink></p>
+            <div className="w-[20%] h-[100%] flex items-center"><p><NavLink to="/useStateWithArray">useState with Array</NavLink></p></div>
+            <div className="w-[20%] h-[100%] flex items-center"><p><NavLink to="/apiFetching">api fetching with useState</NavLink></p>
             </div>
         </div>
         </>

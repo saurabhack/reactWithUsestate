@@ -7,6 +7,7 @@ import Navbar from './component/Navbar'
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 import DarkMode from './component/DarkMode'
 import UseStateUsingArray from './component/UseStateUsingArray'
+import ApiFetching from './component/ApiFetching'
 function App() {
   return (
     
@@ -17,6 +18,7 @@ function App() {
       <Route path="/" element={<ReactUseState/>}></Route>
       <Route path='/BackGroundChanger' element={<DarkMode/>}></Route>
       <Route path='/useStateWithArray' element={<UseStateUsingArray/>}></Route>
+      <Route path='/apiFetching' element={<ApiFetching/>}></Route>
     </Routes>
     </Router>
     
